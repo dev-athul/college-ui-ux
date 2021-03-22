@@ -1,3 +1,13 @@
+#linksHome{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #5b86e5;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: 600;
+}
+
 *{
     margin: 0;
     padding: 0;
