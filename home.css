@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General */
+
+.boxInHome{
+    background-color: #5b86e5;
+    border-radius: 20px;
+    width: 92%;
+    margin: auto;
+    margin-top: 6px;
+    color: white;
+    padding: 5%;
+    padding-bottom: 1px;
+    padding-top: 2%;
+}
+
+#seeMore{
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.smallTitle{
+    color: #666;
+    padding-left: 5%;
+    font-size: .8em;
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+
+/* Top Bar  */
+#topBar{
+    display: flex;
+    justify-content: space-between;
+}
+#topLeft{
+    display: flex;
+}
+#topLeft>#topImage{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    border: 1px solid #333;
+    overflow: hidden;
+    margin: 8px;
+}
+#topDetails{
+    height: 20vw;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#topDetails>p{
+    font-size: .9em;
+    color: #666;
+}
+#topDetails>#topName{
+    font-weight: 700;
+    font-size: 1.2em;
+}
+#optionIcon{
+    width: 10%;
+    height: 20vw;
+    display: flex;
+    align-items: center;
+}
+
+/* Notification Styling */
+
+.notification{
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    margin-top: 5px;
+}
+#lastNotification{
+    border-bottom: none;
+}
+.notification>h3{
+    font-weight: 500;
+    margin-bottom: 3px;
+    font-size: 1em;
+}
+.notification>p{
+    font-weight: 200;
+    font-size: .9em;
+}
+#notificationContainer>.notification:nth-child(1){
+    padding-top: 0;
+    margin-top: 0;
+}
+
+/* Upcoming Events */
+
+#upcomingEventsBox{
+    min-height: 70px;
+}
+.attendenceRing{
+    color: #5b86e5;
+    width: 19vw;
+    height: 19vw;
+    background-color: white;
+    margin: 4vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+    font-weight: 900;
+}
+#attendenceBox{
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
