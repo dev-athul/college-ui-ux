@@ -34,7 +34,7 @@
     position: absolute;
     top: 12%;
 }
-.login-box .form{
+.login-box form{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -43,7 +43,7 @@
     top: 24%;
     padding: 10%;
 }
-.login-box .form input{
+.login-box form input{
     border-radius: 10px;
     height: 2.5em;
     width: 100%;
@@ -57,7 +57,7 @@
 }
 
 
-.login-box .form p{
+.login-box form p{
  font-weight: 100;
  text-align: end;
  align-self: flex-end;
@@ -82,3 +82,4 @@ p.footer{
     position: absolute;
     bottom: 3px;
 }
+
